@@ -6,7 +6,6 @@ public class Persona {
     private String nombre;
     private String apellido;
     private Integer edad;
-    private ReaccionIncidente reaccionIncidente;
     private Estado estado;
 
     public Direccion seleccionarOrigen(){
@@ -18,7 +17,7 @@ public class Persona {
     public List<Persona> seleccionarCuidadores(List<Persona> cuidadores){
     }
 
-    public void reaccionarIncidente(Viaje viaje){
+    public ReaccionIncidente seleccionarReaccion(){
     }
 
     public void activar(){
