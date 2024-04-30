@@ -1,6 +1,6 @@
-package Domain;
+package Domain.Incidentes;
 
-public class falsaAlarma extends ReaccionIncidente {
+public class FalsaAlarma extends ReaccionIncidente {
     private Integer minutosEspera;
     @Override
     public void reaccionar() {
