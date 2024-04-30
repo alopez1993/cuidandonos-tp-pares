@@ -1,6 +1,6 @@
-package Domain;
+package Domain.Incidentes;
 
-public class llamarPolicia extends ReaccionIncidente {
+public class LlamarPolicia extends ReaccionIncidente {
     @Override
     public void reaccionar() {
         //Llama a la policía.
